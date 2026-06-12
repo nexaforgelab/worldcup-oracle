@@ -1,0 +1,41 @@
+WorldCup Oracle
+Copyright 2026 worldcup-oracle contributors
+
+This product includes software developed by the worldcup-oracle project
+and its contributors.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+================================================================================
+Third-party data sources and attributions
+================================================================================
+
+This project aggregates data from public sports data APIs. The project itself
+does not redistribute the data; users provide their own API credentials.
+
+- API-Football (https://www.api-football.com/) — primary match data source
+- football-data.org (https://www.football-data.org/) — fallback source
+- World Football Elo Ratings (http://www.eloratings.net/) — Elo baseline
+
+All FIFA trademarks, team names, and tournament data are property of
+Fédération Internationale de Football Association (FIFA). This project is
+not affiliated with or endorsed by FIFA.
+
+================================================================================
+Disclaimer
+================================================================================
+
+All forecasts are statistical estimates based on historical data. They are
+provided for editorial and research purposes only and DO NOT constitute
+betting or gambling advice. The authors are not liable for any decisions
+made based on these forecasts.
