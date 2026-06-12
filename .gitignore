@@ -1,0 +1,94 @@
+# ============================================================
+# Python 标准
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# /lib at build root, NOT under scripts/ — see scripts/lib/ which is source
+/lib
+/lib64
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================
+# 虚拟环境
+# ============================================================
+venv/
+env/
+ENV/
+.venv/
+.env
+.venv.bak/
+
+# 注意：scripts/lib/ 是项目源码，必须提交
+# Python egg-info 用的 lib/ 在 build 上下文里，与本项目无关
+
+# ============================================================
+# IDE / 编辑器
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# 测试 / 覆盖率
+# ============================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.cache
+
+# ============================================================
+# 日志 / 临时
+# ============================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ============================================================
+# Skill 运行时产物（不提交；用户运行后生成）
+# ============================================================
+data/cache/
+data/predictions_log.jsonl
+data/predictions_log.jsonl.lock
+
+# 注意：data/tournament.json 是赛制基准，应该 commit
+# data/wc2026_demo.json 是兜底数据，应该 commit
+
+# ============================================================
+# 敏感信息（绝对不能 commit）
+# ============================================================
+config/api_keys.yaml
+config/api_keys.local.yaml
+config/*.local.yaml
+*.key
+*.pem
+.env.local
+secrets.yaml
